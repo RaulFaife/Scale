@@ -1,0 +1,52 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "96a750c9-e89a-4a20-8e7a-3f0560be639f",
+            "actions": [
+                {
+                    "name": "Grow",
+                    "type": "Button",
+                    "id": "59b68921-411b-4b7d-aad9-fe7b72332209",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shrink",
+                    "type": "Button",
+                    "id": "1eecc3eb-411f-46bb-af54-f2aaf7d3a04e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "be3a5bff-f575-4981-be54-be4e3397ecb9",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0fede4c4-97fd-4151-993d-7aea943ec7ef",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shrink",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
