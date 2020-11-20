@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "ScaleVR",
+"productVersion": "0.1",
+"dataUrl": "WebGLv11202020.data.unityweb",
+"wasmCodeUrl": "WebGLv11202020.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGLv11202020.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.14f1"
+}

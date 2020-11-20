@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ScaleVR</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <link rel="shortcut icon" href="WebGLv11202020/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="WebGLv11202020/TemplateData/style.css">
+    <script src="WebGLv11202020/TemplateData/UnityProgress.js"></script>
+    <script src="WebGLv11202020/Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGLv11202020.json", {onProgress: UnityProgress});
+    </script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">UPE SparkDev</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Scales</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Members</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- First Pop up-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <img width="500" src="https://media.discordapp.net/attachments/768185422617772102/776245648986996746/ScaleVR_MM.png?width=1692&height=485">
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">A Virtual Reality Experience allowing players to reach cellular, human, and universal scales.</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Gameplay</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">The Game</h2>
+                        <hr class="divider light my-4" />
+
+                        <div class="webgl-content">
+                            <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                            <div class="footer">
+                              <div class="webgl-logo"></div>
+                              <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                              <div class="title">ScaleVR</div>
+                            </div>
+                          </div>
+
+                        <p class="text-white-50 mb-4">Our game gives players the ability to move around and explore different environments around them with different controls/movements. Gameplay includes the exploration of particles around them at a cellular level, the physical level at the environment of Florida International University's MMC campus, and the universal level in which players will get the opportunity to learn about the major solar systems and planets.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Levels-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <h2 class="text-center mt-0">The Scales</h2>
+                <hr class="divider my-3" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                            <div class="mt-5">
+                                <h3 class="h4 mb-2">Subatomic</h3>
+                                <p class="text-muted mb-0">Explore nature's tiniest particles</p>
+                            </div>
+                    </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <h3 class="h4 mb-2">Human</h3>
+                            <p class="text-muted mb-0">Visit the FIU MMC campus</p>
+                        </div>
+                    </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <h3 class="h4 mb-2">Planetary</h3>
+                            <p class="text-muted mb-0">Travel to different planets and discover fun facts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Game Images-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/bloodcells.png">
+                            <img class="img-fluid" src="GameImages/bloodcells.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Cellular</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/Earth.png">
+                            <img class="img-fluid" src="GameImages/Earth.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Human</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/FIUCampus.png">
+                            <img class="img-fluid" src="GameImages/FIUCampus.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Planetary</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/Red-whitebloodcells.png">
+                            <img class="img-fluid" src="GameImages/Red-whitebloodcells.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Cellular</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/Neptune.png">
+                            <img class="img-fluid" src="GameImages/Neptune.png" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Human</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="GameImages/FIUbuilding.png">
+                            <img class="img-fluid" src="GameImages/FIUbuilding.png" alt="" />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Scale:</div>
+                                <div class="project-name">Planetary</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to download game-->
+        <section class="page-section bg-dark text-white">
+            <div class="container text-center">
+                <h2 class="mb-4">Game Download</h2>
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Free Download</a>
+            </div>
+        </section>
+        <!-- Members-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Team Members</h2>
+                        <hr class="divider my-4" />
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Team Leads</li>
+                            <ul>
+                                <li>Raul Faife</li>
+                                <li>Alejandro Pedrique</li>
+                            </ul>
+                        <li>Player Team</li>
+                            <ul>
+                                <li>David Lara</li>
+                                <li>Cristian Araujo</li>
+                            </ul>
+                        <li>Environment Design Team</li>
+                            <ul>
+                                <li>Vanessa Riveros</li>
+                                <li>Karen Morales</li>
+                                <li>Jorge Valdes</li>
+                            </ul>
+                        <li>Research UI/UX Team</li>
+                            <ul>
+                                <li>Isaac Corcia</li>
+                                <li>Vincent Carrancho</li>
+                            </ul>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
